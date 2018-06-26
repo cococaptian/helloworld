@@ -1,0 +1,28 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	int a;
+	int b;
+	cout << "请输入第一个数字以“ENTER”键结束\n";
+	cin >> a;
+	cout << "请输入第二个数字以“ENTER”键结束\n";
+	cin >> b;
+	if (a > b)
+	{
+		cout << a << ">" << b<<endl;
+		cout << "第一个数字大于第二个数字";
+
+	}
+	else 
+	{
+		cout << a << "<=" << b << endl;
+		cout << "第一个数字小于等于第二个数字" << endl;
+
+	}
+	float d;
+	double e;
+	cin>>e;
+	return 0;
+}
